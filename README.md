@@ -44,6 +44,11 @@ Install dependencies
   pip run -r requirements.txt
 ```
 
+Run the app
+
+```bash
+  streamlit run CAPM_Return.py
+```
 
 ## Tech Stack
 
