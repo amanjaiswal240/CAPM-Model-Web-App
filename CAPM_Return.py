@@ -17,7 +17,7 @@ st.title("Capital Asset Pricing Model")
 # taking input from the user
 col1, col2=st.columns([1,1])
 with col1:
-    stocks_list=st.multiselect("Choose 4 stocks",('TSLA','AAPL','NFLX','MSFT','MGM','AMZN','GOOGL'),('TSLA','AAPL','AMZN','GOOGL'))
+    stocks_list=st.multiselect("Choose a stocks",('TSLA','AAPL','NFLX','MSFT','MGM','AMZN','GOOGL'),('TSLA','AAPL','AMZN','GOOGL'))
 with col2:
     year=st.number_input("Number of years",1,10)
 
